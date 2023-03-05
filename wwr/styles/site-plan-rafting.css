@@ -1,18 +1,18 @@
-@import url('@import url('https://fonts.googleapis.com/css2?family=Noto Serif Georgian&family=Open Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto Serif Georgian&family=Open Sans&display=swap');
 
 :root {
-    --primary-color: #FF8600;
-    --secondary-color: #7C7F65;
-    --accent1-color: #27187E;
+    --primary-color: #ff8600;
+    --secondary-color: #7c7f65;
+    --accent1-color: #27187e;
     --accent2-color: #984447;
 
-    --heading-font: 'Noto Serif Georgian', Serif
-    --paragraph-font: 'Open Sans', Sans Serif
+    --heading-font: 'Noto Serif Georgian', serif;
+    --paragraph-font: 'Open Sans', sans;
 
-    --nav-background-color: #984447
-    --nav-link-color: #27187E
-    --nav-hover-link-color: #FF8600
-    --nav-hover-background-color: #7C7F65
+    --nav-background-color: #984447;
+    --nav-link-color: #27187e;
+    --nav-hover-link-color: #ff8600;
+    --nav-hover-background-color: #7c7f65;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header {
