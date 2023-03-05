@@ -1,0 +1,57 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Noto Serif Georgian&family=Open Sans&display=swap');
+
+:root {
+    --primary-color: #FF8600;
+    --secondary-color: #7C7F65;
+    --accent1-color: #27187E;
+    --accent2-color: #984447;
+
+    --heading-font: 'Noto Serif Georgian', Serif
+    --paragraph-font: 'Open Sans', Sans Serif
+
+    --nav-background-color: #984447
+    --nav-link-color: #27187E
+    --nav-hover-link-color: #FF8600
+    --nav-hover-background-color: #7C7F65
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
