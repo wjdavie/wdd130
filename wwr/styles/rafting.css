@@ -30,6 +30,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 4em;
+    text-align: center;
 }
 
 h2 {
@@ -54,36 +55,9 @@ nav a {
     padding-right: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
 .hero {
+    margin: 10px auto;
     position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.hero h1 {
-    position: absolute;
-    width: 100%;
-    top: 30px;
-    text-align: center;
-    background-color: rgba(124, 127, 101, 0.7);
-}
-
-.hero article {
-    position: absolute;
-    width: 75%;
-    bottom: 20%;
-    font-family: var(--paragraph-font);
-    color: white;
-    background-color: rgba(152, 68, 71, 0.5);
 }
 
 .hero img {
@@ -91,7 +65,25 @@ nav a:hover {
     height: auto;
 }
 
-.hero article img {
-    width: 250px;
+.top {
+    position: absolute;
+    width: 100%;
+    top: 8px;
+    background-color: rgba(124, 127, 101, 0.7);
+}
+
+.bottom {
+    position: absolute;
+    width: 75%;
+    bottom: 100px;
+    left: 225px;
+    background-color: rgba(152, 68, 71, 0.5);
+    font-family: var(--paragraph-font);
+    color: white;
+}
+
+.bottom img {
+    width: 15%;
+    height: auto;
     float: right;
 }
