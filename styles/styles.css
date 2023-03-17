@@ -77,7 +77,7 @@ footer {
   color: green;
 }
 
-header, .grid, footer {
+.grid, header, footer {
   max-width: 840px;
   margin: 0, auto
 }
