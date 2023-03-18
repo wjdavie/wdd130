@@ -16,7 +16,6 @@
 }
 
 body {
-    width: auto;
     margin: 0;
     padding: 10px;
 }
@@ -24,6 +23,23 @@ body {
 header {
     padding-bottom: 10px;
     color: var(--accent1-color);
+}
+
+header img {
+    height: 75%;
+}
+
+nav {
+    font-size: 1.1rem;
+}
+
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    border: 2px solid;
+    background-color: #7c7f65;
+    padding: 1em;
+    margin: 2rem;
 }
 
 h1 {
@@ -36,6 +52,8 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center ;
+    
 }
 
 section {
@@ -43,19 +61,30 @@ section {
     color: var(--accent2-color);
 }
 
-nav {
-    font-size: 1.2rem;
-    display: flex;
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+    align-content: center;
+    margin: 2rem;
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding-right: 1rem;
+.hcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    align-content: center;
+    background-color: #ff8600;
+    height: 225px;
+}
+
+.ncontainer {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .hero {
+    display: flex;
     margin: 10px auto;
     position: relative;
 }
@@ -68,15 +97,16 @@ nav a {
 .top {
     position: absolute;
     width: 100%;
-    top: 8px;
+    margin-top: 10px;
     background-color: rgba(124, 127, 101, 0.7);
 }
 
 .bottom {
     position: absolute;
     width: 75%;
-    bottom: 100px;
-    left: 225px;
+    bottom: 10%;
+    top: 50%;
+    left: 12%;
     background-color: rgba(152, 68, 71, 0.5);
     font-family: var(--paragraph-font);
     color: white;
@@ -86,4 +116,31 @@ nav a {
     width: 15%;
     height: auto;
     float: right;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(124, 127, 101, 0.7);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    background-color: rgba(152, 68, 71, 0.5);
+    color: #27187e;
+}
+
+.socialmedia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
