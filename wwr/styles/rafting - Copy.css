@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spectral&display=swap');
 
 :root {
-    --primary-color: #804400;
-    --secondary-color: #BEC1B3;
+    --primary-color: #ff8600;
+    --secondary-color: #7c7f65;
     --accent1-color: #27187e;
-    --accent2-color: #5B292A;
+    --accent2-color: #984447;
 
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Spectral', serif;
 
-    --nav-background-color: #804400;
+    --nav-background-color: #ff8600;
     --nav-link-color: #27187e;
-    --nav-hover-link-color: #5B292A;
-    --nav-hover-background-color: #BEC1B3;
+    --nav-hover-link-color: #984447;
+    --nav-hover-background-color: #7c7f65;
 }
 
 body {
@@ -37,7 +37,7 @@ header nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     border: 2px solid;
-    background-color: #BEC1B3;
+    background-color: #7c7f65;
     padding: 1em;
     margin: 2rem;
 }
@@ -73,7 +73,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     place-items: center;
     align-content: center;
-    background-color: #804400;
+    background-color: #ff8600;
     height: 225px;
 }
 
@@ -97,7 +97,7 @@ footer {
     position: absolute;
     width: 100%;
     margin-top: 10px;
-    background-color: #CCCFC4;
+    background-color: rgba(124, 127, 101, 0.7);
 }
 
 .bottom {
@@ -122,7 +122,7 @@ footer {
     grid-template-columns: 2fr 1fr 2fr;
     gap: 10px;
     align-items: center;
-    background-color: #CCCFC4;
+    background-color: rgba(124, 127, 101, 0.7);
 }
 
 section img {
@@ -134,7 +134,7 @@ section img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
-    background-color: #DFB9B9;
+    background-color: rgba(152, 68, 71, 0.5);
     color: #27187e;
 }
 
