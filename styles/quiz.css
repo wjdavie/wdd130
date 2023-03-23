@@ -76,9 +76,11 @@ footer {
     border-top: 1px solid #a8a7a7;
 }
 
-.q4 textarea {
+.q4 p {
     text-align: center;
-    width: 50%;
     margin-left: 25%;
-    background-color: lightgray;
+    width: 50%;
+    border: 1px solid black;
+    background-color: cyan;
+    color: black;
 }
