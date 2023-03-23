@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Spectral&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: black;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.4em;
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: lightgray;
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Spectral', serif;
+    color: darkblue;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: large;
+    width: 100%;
+}
+
+button {
+    margin: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: large;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(174, 170, 170);
+    border-top: 1px solid #a8a7a7;
+}
+
+.q4 textarea {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: lightgray;
+}
