@@ -205,14 +205,8 @@ form {
     width: 100%;
 }
 
-.subscribe {
-    margin-left: 10px;
-    align-self: center;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    border: 2px solid;
-    padding: 1em;
-    text-align: center;
+form .subscribe {
+    margin-top: 20px;
 }
 
 .submit {
